@@ -1,0 +1,17 @@
+    lk_up_table = {'ARX':'ARX',
+                   'CJUN':'JUN',
+                   'CMYC': 'MYC',
+                   'FOXA2': 'FOXA2',
+                   'GCG': 'GCG',
+                   'INS': 'INS',
+                   'ISL1': 'ISL1',
+                   'MAFA':'MAFA',
+                   'MAFB': 'MAFB',
+                   'NEUROD1': 'NEUROD1',
+                   'NGN3': 'NEUROG3',
+                   'NKX2.2': 'NKX2-2',
+                   'NKX6.1': 'NKX6-1',
+                   'PAX4': 'PAX4',
+                   'PAX6':'PAX6',
+                   'PDX1':'PDX1'
+                   }

@@ -1,0 +1,58 @@
+Time Started:
+Tue Jan 21 13:19:40 CST 2020
+SLURM_JOBID:  16026255
+SLURM_ARRAY_TASK_ID:  5
+SLURM_ARRAY_JOB_ID:  16025688
+Loading required package: usethis
+Loading required package: parallel
+Loading required package: penalized
+Loading required package: survival
+Loading required package: methods
+Welcome to penalized. For extended examples, see vignette("penalized").
+Loading required package: doParallel
+Loading required package: foreach
+Loading required package: iterators
+[1] "ec_scimpute.csv"
+[1] "exo_scimpute.csv"
+[1] "fev_high_isl_neg_scimpute.csv"
+[1] "foxj1_scimpute.csv"
+[1] "neurog3_scimpute.csv"
+[1] "reading in raw count matrix ..."
+[1] "number of genes in raw count matrix 10145"
+[1] "number of cells in raw count matrix 614"
+[1] "reading finished!"
+[1] "imputation starts ..."
+[1] "searching candidate neighbors ... "
+starting worker pid=79794 on localhost:11428 at 13:20:41.582
+[1] "estimating dropout probability for type 1 ..."
+[1] 2000
+[1] 4000
+[1] 6000
+[1] 8000
+[1] 10000
+[1] "searching for valid genes ..."
+[1] "imputing dropout values for type 1 ..."
+Warning: namespace ‘scImpute’ is not available and has been replaced
+by .GlobalEnv when processing object ‘’
+Loading required package: scImpute
+Loading required package: survival
+Welcome to penalized. For extended examples, see vignette("penalized").
+[1] 100
+[1] 200
+[1] 300
+[1] 400
+[1] 500
+[1] 600
+Warning message:
+In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘scImpute’
+[1] "writing imputed count matrix ..."
+[1] "nkx61_scimpute.csv"
+[1] "pdx1_scimpute.csv"
+[1] "ph__pre_scimpute.csv"
+[1] "ph_scimpute.csv"
+[1] "repl_scimpute.csv"
+[1] "scbeta_scimpute.csv"
+[1] "sst_hhex_scimpute.csv"
+[1] "Success"
+Tue Jan 21 13:28:07 CST 2020

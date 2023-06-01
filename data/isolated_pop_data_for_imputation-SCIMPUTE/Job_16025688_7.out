@@ -1,0 +1,129 @@
+Time Started:
+Tue Jan 21 13:19:38 CST 2020
+SLURM_JOBID:  16026257
+SLURM_ARRAY_TASK_ID:  7
+SLURM_ARRAY_JOB_ID:  16025688
+Loading required package: usethis
+Loading required package: parallel
+Loading required package: penalized
+Loading required package: survival
+Loading required package: methods
+Welcome to penalized. For extended examples, see vignette("penalized").
+Loading required package: doParallel
+Loading required package: foreach
+Loading required package: iterators
+[1] "ec_scimpute.csv"
+[1] "exo_scimpute.csv"
+[1] "fev_high_isl_neg_scimpute.csv"
+[1] "foxj1_scimpute.csv"
+[1] "neurog3_scimpute.csv"
+[1] "nkx61_scimpute.csv"
+[1] "pdx1_scimpute.csv"
+[1] "reading in raw count matrix ..."
+[1] "number of genes in raw count matrix 10145"
+[1] "number of cells in raw count matrix 7794"
+[1] "reading finished!"
+[1] "imputation starts ..."
+[1] "searching candidate neighbors ... "
+starting worker pid=54646 on localhost:11882 at 13:30:25.680
+[1] "estimating dropout probability for type 1 ..."
+[1] 2000
+[1] 4000
+[1] 6000
+[1] 8000
+[1] 10000
+[1] "searching for valid genes ..."
+[1] "imputing dropout values for type 1 ..."
+Warning: namespace ‘scImpute’ is not available and has been replaced
+by .GlobalEnv when processing object ‘’
+Loading required package: scImpute
+Loading required package: survival
+Welcome to penalized. For extended examples, see vignette("penalized").
+[1] 100
+[1] 200
+[1] 300
+[1] 400
+[1] 500
+[1] 600
+[1] 700
+[1] 800
+[1] 900
+[1] 1000
+[1] 1100
+[1] 1200
+[1] 1300
+[1] 1400
+[1] 1500
+[1] 1600
+[1] 1700
+[1] 1800
+[1] 1900
+[1] 2000
+[1] 2100
+[1] 2200
+[1] 2300
+[1] 2400
+[1] 2500
+[1] 2600
+[1] 2700
+[1] 2800
+[1] 2900
+[1] 3000
+[1] 3100
+[1] 3200
+[1] 3300
+[1] 3400
+[1] 3500
+[1] 3600
+[1] 3700
+[1] 3800
+[1] 3900
+[1] 4000
+[1] 4100
+[1] 4200
+[1] 4300
+[1] 4400
+[1] 4500
+[1] 4600
+[1] 4700
+[1] 4800
+[1] 4900
+[1] 5000
+[1] 5100
+[1] 5200
+[1] 5300
+[1] 5400
+[1] 5500
+[1] 5600
+[1] 5700
+[1] 5800
+[1] 5900
+[1] 6000
+[1] 6100
+[1] 6200
+[1] 6300
+[1] 6400
+[1] 6500
+[1] 6600
+[1] 6700
+[1] 6800
+[1] 6900
+[1] 7000
+[1] 7100
+[1] 7200
+[1] 7300
+[1] 7400
+[1] 7500
+[1] 7600
+[1] 7700
+Warning message:
+In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘scImpute’
+[1] "writing imputed count matrix ..."
+[1] "ph__pre_scimpute.csv"
+[1] "ph_scimpute.csv"
+[1] "repl_scimpute.csv"
+[1] "scbeta_scimpute.csv"
+[1] "sst_hhex_scimpute.csv"
+[1] "Success"
+Wed Jan 22 01:46:44 CST 2020

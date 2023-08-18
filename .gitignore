@@ -33,3 +33,5 @@ data/scimpute_genes/scimpute_train.csv
 data/scbeta_indrops/02_Stage_6/data/complete_processing/stage6.processed.loom
 data/scbeta_indrops/03_Stage_5/data/complete_processing/stage5.processed.loom
 data/scbeta_indrops/03_Stage_5/data/pseudotime/stage5.scbeta_ec_neurog3_prog.loom
+.DS_Store
+data/scbeta_indrops/03_Stage_5/data/.DS_Store
